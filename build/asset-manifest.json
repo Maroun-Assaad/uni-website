@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//maroun-assaad.github.io/static/css/main.c4d670d2.css",
+    "main.js": "//maroun-assaad.github.io/static/js/main.3374b4a2.js",
+    "index.html": "//maroun-assaad.github.io/index.html",
+    "main.c4d670d2.css.map": "//maroun-assaad.github.io/static/css/main.c4d670d2.css.map",
+    "main.3374b4a2.js.map": "//maroun-assaad.github.io/static/js/main.3374b4a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4d670d2.css",
+    "static/js/main.3374b4a2.js"
+  ]
+}
