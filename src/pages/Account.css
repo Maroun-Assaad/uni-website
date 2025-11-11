@@ -1,0 +1,158 @@
+/* Account styles */
+.account {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.account__content {
+  width: 100%;
+  max-width: 500px;
+}
+
+.account__container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Tabs */
+.account__tabs {
+  display: flex;
+  background: #f8f9fa;
+}
+
+.tab {
+  flex: 1;
+  padding: 20px;
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  background: white;
+  color: #007bff;
+  border-bottom: 3px solid #007bff;
+}
+
+.tab:hover:not(.active) {
+  background: #e9ecef;
+}
+
+/* Forms */
+.account__forms {
+  padding: 40px;
+}
+
+.login__form,
+.register__form {
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login__form.active,
+.register__form.active {
+  display: flex;
+}
+
+.login__form h2,
+.register__form h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login__form p,
+.register__form p {
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__group input {
+  padding: 15px;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form__group input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.form__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.form__options label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+  cursor: pointer;
+}
+
+.form__options input[type="checkbox"] {
+  margin: 0;
+}
+
+.forgot-password {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+  color: #0056b3;
+}
+
+.login__btn,
+.register__btn {
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+  .account {
+    padding: 40px 20px;
+  }
+  
+  .account__forms {
+    padding: 30px 20px;
+  }
+  
+  .login__form h2,
+  .register__form h2 {
+    font-size: 1.8rem;
+  }
+  
+  .form__options {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+}

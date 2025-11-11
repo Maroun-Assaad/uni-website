@@ -1,0 +1,58 @@
+/* Header styles */
+.header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 25px;
+  color: aqua;
+  text-align: left;
+}
+
+.header__navbar,
+.header__nav-list {
+  margin-top: 20px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+.nav-list__link {
+  text-decoration: none;
+  color: aqua;
+  font-weight: bold;
+}
+
+.nav-list__link:hover {
+  cursor: pointer;
+  color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__navbar {
+    margin-top: 20px;
+  }
+
+  .header__nav-list {
+    text-align: center;
+  }
+
+  .nav-list__link {
+    display: block;
+    padding: 10px;
+  }
+}
