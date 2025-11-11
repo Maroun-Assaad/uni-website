@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//maroun-assaad.github.io/University-Website/static/css/main.c4d670d2.css",
+    "main.js": "//maroun-assaad.github.io/University-Website/static/js/main.64494e71.js",
+    "index.html": "//maroun-assaad.github.io/University-Website/index.html",
+    "main.c4d670d2.css.map": "//maroun-assaad.github.io/University-Website/static/css/main.c4d670d2.css.map",
+    "main.64494e71.js.map": "//maroun-assaad.github.io/University-Website/static/js/main.64494e71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4d670d2.css",
+    "static/js/main.64494e71.js"
+  ]
+}
