@@ -16,11 +16,11 @@ function App() {
         <Header />
         <main className="main-content">
           <Routes>
-            <Route path="/home" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/courses" element={<Courses />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/account" element={<Account />} />
+            <Route path="University-Website/home" element={<Home />} />
+            <Route path="University-Website/about" element={<About />} />
+            <Route path="University-Website/courses" element={<Courses />} />
+            <Route path="University-Website/contact" element={<Contact />} />
+            <Route path="University-Website/account" element={<Account />} />
           </Routes>
         </main>
         <Footer />
