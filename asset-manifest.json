@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/uni-website/home/static/css/main.c4d670d2.css",
-    "main.js": "/uni-website/home/static/js/main.d621d5b4.js",
-    "index.html": "/uni-website/home/index.html",
-    "main.c4d670d2.css.map": "/uni-website/home/static/css/main.c4d670d2.css.map",
-    "main.d621d5b4.js.map": "/uni-website/home/static/js/main.d621d5b4.js.map"
+    "main.css": "/uni-website/static/css/main.c4d670d2.css",
+    "main.js": "/uni-website/static/js/main.d621d5b4.js",
+    "index.html": "/uni-website/index.html",
+    "main.c4d670d2.css.map": "/uni-website/static/css/main.c4d670d2.css.map",
+    "main.d621d5b4.js.map": "/uni-website/static/js/main.d621d5b4.js.map"
   },
   "entrypoints": [
     "static/css/main.c4d670d2.css",
