@@ -7,7 +7,7 @@ A modern, responsive university website built with React and TypeScript. This pr
 - **Modern React Architecture**: Built with React 18 and TypeScript for type safety
 - **Responsive Design**: Mobile-first approach with CSS Grid and Flexbox
 - **Client-side Routing**: Seamless navigation with React Router
-- **Interactive Components**: 
+- **Interactive Components**:
   - Hero slider with auto-rotation
   - Course filtering by category
   - Expandable course descriptions
@@ -44,11 +44,13 @@ A modern, responsive university website built with React and TypeScript. This pr
 
 1. Clone the repository or navigate to the project directory
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm start
    ```
@@ -91,21 +93,25 @@ src/
 ## Key Features Explained
 
 ### Hero Slider
+
 - Auto-rotating slides with smooth transitions
 - Responsive background images
 - Call-to-action buttons
 
 ### Course Filtering
+
 - Filter courses by category (Development, Engineering, etc.)
 - Dynamic course cards with hover effects
 - Course details including duration, level, and price
 
 ### Interactive Forms
+
 - Login and registration with tab switching
 - Form validation and error handling
 - Contact form with email validation
 
 ### Responsive Design
+
 - Mobile-first approach
 - CSS Grid and Flexbox for layouts
 - Smooth animations and transitions
@@ -113,29 +119,32 @@ src/
 ## Customization
 
 ### Adding New Courses
+
 Edit the `courses` array in `src/pages/Courses.tsx`:
 
 ```typescript
 const courses: Course[] = [
   {
     id: 9,
-    title: 'New Course Title',
-    description: 'Course description...',
-    duration: '12 weeks',
-    level: 'Beginner',
-    price: '$299',
-    image: 'images/course-image.png',
-    category: 'development'
-  }
+    title: "New Course Title",
+    description: "Course description...",
+    duration: "12 weeks",
+    level: "Beginner",
+    price: "$299",
+    image: "images/course-image.png",
+    category: "development",
+  },
 ];
 ```
 
 ### Styling
+
 - Global styles are in `src/App.css`
 - Component-specific styles are in their respective `.css` files
 - Color scheme can be modified by changing CSS custom properties
 
 ### Images
+
 - Place course and subject images in the `public/images/` directory
 - Update image paths in the respective components
 
@@ -168,6 +177,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Note**: This is a frontend-only application. For production use, you'll need to:
+
 - Connect to a backend API for data management
 - Implement proper authentication
 - Add form submission handling
