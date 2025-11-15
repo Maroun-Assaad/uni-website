@@ -1,13 +1,26 @@
 {
   "files": {
-    "main.css": "/uni-website/static/css/main.c4d670d2.css",
-    "main.js": "/uni-website/static/js/main.d621d5b4.js",
+    "main.css": "/uni-website/static/css/main.8749aaf0.css",
+    "main.js": "/uni-website/static/js/main.7e4b34ff.js",
+    "static/media/heroslider2.jpg": "/uni-website/static/media/heroslider2.03a50923b86b1f7fb99a.jpg",
+    "static/media/heroslider1.jpg": "/uni-website/static/media/heroslider1.89fa4e50874b04737a54.jpg",
+    "static/media/heroslider4.jpg": "/uni-website/static/media/heroslider4.31573678dd3aa4fbbbe8.jpg",
+    "static/media/heroslider3.jpg": "/uni-website/static/media/heroslider3.44b3fb445039f3f259ea.jpg",
+    "static/media/course-2-8.jpg": "/uni-website/static/media/course-2-8.03dcdb824d74c854957a.jpg",
+    "static/media/course-2-2.jpg": "/uni-website/static/media/course-2-2.22272c5b740b64212ed8.jpg",
+    "static/media/course-2-4.jpg": "/uni-website/static/media/course-2-4.a4c84051e3c490a36305.jpg",
+    "static/media/course-2-5.jpg": "/uni-website/static/media/course-2-5.16a118273a2c139bc31f.jpg",
+    "static/media/course-2-3.jpg": "/uni-website/static/media/course-2-3.c080e5338b253eb0c9ab.jpg",
+    "static/media/course-2-6.jpg": "/uni-website/static/media/course-2-6.3199c489486d42ff40d2.jpg",
+    "static/media/course-2-9.jpg": "/uni-website/static/media/course-2-9.d37db5ee26de96302e1d.jpg",
+    "static/media/course-2-7.jpg": "/uni-website/static/media/course-2-7.463e77a0c37f9218c307.jpg",
+    "static/media/course-2-1.jpg": "/uni-website/static/media/course-2-1.430a0fc34dab2d5be9e2.jpg",
     "index.html": "/uni-website/index.html",
-    "main.c4d670d2.css.map": "/uni-website/static/css/main.c4d670d2.css.map",
-    "main.d621d5b4.js.map": "/uni-website/static/js/main.d621d5b4.js.map"
+    "main.8749aaf0.css.map": "/uni-website/static/css/main.8749aaf0.css.map",
+    "main.7e4b34ff.js.map": "/uni-website/static/js/main.7e4b34ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4d670d2.css",
-    "static/js/main.d621d5b4.js"
+    "static/css/main.8749aaf0.css",
+    "static/js/main.7e4b34ff.js"
   ]
 }
