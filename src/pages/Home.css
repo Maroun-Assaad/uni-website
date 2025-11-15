@@ -1,49 +1,54 @@
-/* Home styles */
+/* Home Section */
 .home {
-  overflow: hidden;
-  position: relative;
-}
-
-.slider-container {
   position: relative;
   width: 100%;
   height: 100vh;
   overflow: hidden;
 }
 
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Slides Wrapper */
 .slides {
   display: flex;
-  width: 400%;
   height: 100%;
   transition: transform 0.5s ease-in-out;
 }
 
+/* Each Slide */
 .home__info {
-  width: 25%;
+  flex: 0 0 100%; /* Each slide takes full screen width */
   height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   position: relative;
 }
 
+/* Dark overlay */
 .home__info::before {
-  content: '';
+  content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
 }
 
+/* Slide content */
 .content {
+  z-index: 1;
   text-align: center;
   color: white;
-  z-index: 1;
   position: relative;
 }
 
@@ -184,12 +189,12 @@
   .content h3 {
     font-size: 2rem;
   }
-  
+
   .subjects__heading,
   .courses__heading {
     font-size: 2rem;
   }
-  
+
   .subjects__row,
   .courses__slider {
     grid-template-columns: 1fr;
